@@ -1,0 +1,107 @@
+$removeButtonSize: 20px;
+
+#root {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+* {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.item {
+	display: flex;
+	justify-content: space-between;
+}
+
+.visible {
+	background-color: #d5d5d5 !important;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	& > .todo-items {
+		width: 500px;
+		align-self: center;
+		display: flex;
+		padding: 10px;
+		flex-direction: column;
+		gap: 6px;
+
+		& > .item {
+			border-radius: 5px;
+			padding-inline: 10px;
+			background-color: #88aafb;
+			align-items: center;
+
+			& > div {
+				display: flex;
+				flex-direction: row;
+				width: 100%;
+				gap: 15px;
+				height: 40px;
+				align-items: center;
+
+				& > .is_done {
+					width: 20px;
+					height: 20px;
+				}
+			}
+
+			& > .remove_button {
+				width: $removeButtonSize;
+				height: $removeButtonSize;
+				// padding: 6px;
+				background-color: #694cff;
+				font-size: 14px;
+				border-width: 2px;
+				border-style: none;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+		}
+	}
+
+	& > .add-item-form {
+		width: 500px;
+		display: flex;
+		flex-direction: row;
+		align-self: center;
+
+		& > input {
+			border-style: solid;
+			border-color: rgb(39, 39, 39);
+			border-width: 2px;
+			border-radius: 6px 0px 0px 6px;
+			font-size: 22px;
+			width: 100%;
+			padding: 5px 11px;
+			outline: none;
+		}
+
+		& > button {
+			padding-inline: 15px;
+			font-size: 22px;
+			color: white;
+			background-color: #694cff;
+			border-style: none;
+			border-radius: 0px 6px 6px 0px;
+			border-color: black;
+		}
+	}
+}

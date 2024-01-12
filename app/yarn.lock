@@ -596,25 +596,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@preact/signals-core@npm:^1.4.0":
-  version: 1.5.0
-  resolution: "@preact/signals-core@npm:1.5.0"
-  checksum: af94ccd3add2dfd36a84b8535e3512db5e2425b4cb832d4460940c53b4493489b88055e633a0d1f76a663bcfa604ad08c4dd7d2d4d369f564f73720d878be5bc
-  languageName: node
-  linkType: hard
-
-"@preact/signals-react@npm:^1.3.6":
-  version: 1.3.6
-  resolution: "@preact/signals-react@npm:1.3.6"
-  dependencies:
-    "@preact/signals-core": ^1.4.0
-    use-sync-external-store: ^1.2.0
-  peerDependencies:
-    react: ^16.14.0 || 17.x || 18.x
-  checksum: 0869cfbd0e58e84a76b29e373e1157868dd9d63d60db6a3f85c6ffa259d7e27dee6dfe01013f959fd07e7ebeece976a85b2df8e7d1d657c02762c11acb1bf12c
-  languageName: node
-  linkType: hard
-
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -2967,15 +2948,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-sync-external-store@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "use-sync-external-store@npm:1.2.0"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 5c639e0f8da3521d605f59ce5be9e094ca772bd44a4ce7322b055a6f58eeed8dda3c94cabd90c7a41fb6fa852210092008afe48f7038792fd47501f33299116a
-  languageName: node
-  linkType: hard
-
 "util-deprecate@npm:^1.0.1":
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
@@ -3002,7 +2974,7 @@ __metadata:
     sass: ^1.67.0
     typescript: ^5.2.2
     vite: ^4.4.9
-    widehook: ^0.3.5
+    widehook: ^1.1.1
   languageName: unknown
   linkType: soft
 
@@ -3066,15 +3038,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"widehook@npm:^0.3.5":
-  version: 0.3.5
-  resolution: "widehook@npm:0.3.5"
+"widehook@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "widehook@npm:1.1.1"
   dependencies:
-    "@preact/signals-react": ^1.3.6
     rxjs: ^7.8.1
   peerDependencies:
     react: ">=17.x"
-  checksum: 9be2413b429b780fae97b30846a5712c79c991832378462f8d6d9b513a43b4c89034c9d282cbdec0165fefd4da596e7d89094f208272f5b3efe912a6b7a797cb
+  checksum: 1a16e4d420233f3196e78c10044355b6416c6c35b44838666da054a86c3957eaa429e698733f73c68824b7d9d4dfde118792128504a48b7163b20c5f1346d2df
   languageName: node
   linkType: hard
 

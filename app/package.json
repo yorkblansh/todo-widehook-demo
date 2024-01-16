@@ -13,21 +13,21 @@
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "widehook": "^1.1.1"
+    "widehook": "^2.0.22"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.198",
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.7.0",
-    "@typescript-eslint/parser": "^6.7.0",
-    "@vitejs/plugin-react": "^4.0.4",
-    "eslint": "^8.49.0",
+    "@types/lodash": "^4.14.202",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
-    "sass": "^1.67.0",
-    "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "sass": "^1.69.7",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
   },
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@4.0.2"
 }
